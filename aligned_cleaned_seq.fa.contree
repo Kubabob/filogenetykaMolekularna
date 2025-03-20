@@ -1,0 +1,299 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=197;
+	taxlabels
+	Ascomycota_DnaK_mtHsp70_Candida_albicans_2-626[&!color=#6699ff]
+	Ascomycota_DnaK_mtHsp70_Coccidioides_immitis_2-624
+	Ascomycota_DnaK_mtHsp70_Fusarium_graminearum_2-620
+	Ascomycota_DnaK_mtHsp70_Kluyveromyces_lactis_2-623[&!color=#6699ff]
+	Ascomycota_DnaK_mtHsp70_Neurospora_tetrasperma_2-622
+	Ascomycota_DnaK_mtHsp70_Pseudocercospora_fijiensis_2-626
+	Ascomycota_DnaK_mtHsp70_Pyrenophora_teres_2-625
+	Ascomycota_DnaK_mtHsp70_Tetrapisispora_phaffii_2-627
+	Ascomycota_DnaK_mtHsp70_Thielavia_terrestris_2-622
+	Ascomycota_DnaK_mtHsp70_Trichophyton_benhamiae_2-625
+	Ascomycota_SSC_Kluyveromyces_lactis_2-623[&!color=#cc9900]
+	Ascomycota_SSC_Schizosaccharomyces_cryophilus_2-624[&!color=#cc9900]
+	Ascomycota_SSC_Schizosaccharomyces_octosporus_2-625[&!color=#cc9900]
+	Ascomycota_SSC_Yali_2-625[&!color=#cc9900]
+	Ascomycota_SSC_Ygal_2-625[&!color=#cc9900]
+	Ascomycota_SSC_Yhis_2-626[&!color=#cc9900]
+	Ascomycota_SSC_Ylip_2-625[&!color=#cc9900]
+	Ascomycota_SSC_Ypha_2-625[&!color=#cc9900]
+	Ascomycota_SSC_Yyak_2-625[&!color=#cc9900]
+	Ascomycota_SSC__Saccharomyces_cerevisiae_2-626[&!color=#6699ff]
+	Ascomycota_SSC__Schizosaccharomyces_japonicus_2-626[&!color=#cc9900]
+	Ascomycota_SSQ_Candida_auris_2-621[&!color=#009900]
+	Ascomycota_SSQ_Candida_tropicalis_4-615[&!color=#009900]
+	Ascomycota_SSQ_Debaryomyces_hansenii_15-629[&!color=#009900]
+	Ascomycota_SSQ_Kazachstania_africana_1-616[&!color=#009900]
+	Ascomycota_SSQ_Lodderomyces_elongisporus_8-620[&!color=#009900]
+	Ascomycota_SSQ_Naumovozyma_castellii_4-620[&!color=#009900]
+	Ascomycota_SSQ_Saccharomyces_cerevisiae_2-618[&!color=#009900]
+	Ascomycota_SSQ_Scheffersomyces_stipitis_10-625[&!color=#009900]
+	Ascomycota_SSQ_Spathaspora_passalidarum_9-614[&!color=#009900]
+	Ascomycota_SSQ_Tetrapisispora_blattae_2-620[&!color=#009900]
+	Ascomycota_SSQ_Tetrapisispora_phaffii_1-621[&!color=#009900]
+	Ascomycota_SSQ__Cten_1-614[&!color=#009900]
+	Ascomycota_hsp70_Bipolaris_oryzae_2-625
+	Ascomycota_hsp70_Tetrapisispora_blattae_2-627
+	Ascomycota_mtHsp70_Aspergillus_fischeri_5-620
+	Ascomycota_mtHsp70_Aspergillus_fumigatus_26-643
+	Ascomycota_mtHsp70_Aspergillus_nidulans_2-619
+	Ascomycota_mtHsp70_Aspergillus_niger_2-621
+	Ascomycota_mtHsp70_Aspergillus_oryzae_1-522
+	Ascomycota_mtHsp70_Baudoinia_panamericana_2-628
+	Ascomycota_mtHsp70_Bipolaris_sorokiniana_2-625
+	Ascomycota_mtHsp70_Bipolaris_zeicola_2-625
+	Ascomycota_mtHsp70_Botrytis_cinerea_2-624
+	Ascomycota_mtHsp70_Candida_auris_2-627[&!color=#6699ff]
+	Ascomycota_mtHsp70_Candida_dubliniensis_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Candida_glabrata_2-625[&!color=#6699ff]
+	Ascomycota_mtHsp70_Candida_orthopsilosis_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Candida_tenuis_2-626
+	Ascomycota_mtHsp70_Candida_tropicalis_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Chaetomium_thermophilum_2-622
+	Ascomycota_mtHsp70_Clavispora_lusitaniae_2-627[&!color=#6699ff]
+	Ascomycota_mtHsp70_Cordyceps_militaris_2-624
+	Ascomycota_mtHsp70_Debaryomyces_hansenii_2-625[&!color=#6699ff]
+	Ascomycota_mtHsp70_Eremothecium_gossypii_1-621
+	Ascomycota_mtHsp70_Fusarium_pseudograminearum_2-620
+	Ascomycota_mtHsp70_Histoplasma_capsulatum_2-625
+	Ascomycota_mtHsp70_Kazachstania_africana_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Lachancea_thermotolerans_2-626
+	Ascomycota_mtHsp70_Lodderomyces_elongisporus_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Magnaporthe_oryzae_2-621
+	Ascomycota_mtHsp70_Marssonina_brunnea_2-624
+	Ascomycota_mtHsp70_Meyerozyma_guilliermondii_54-679[&!color=#6699ff]
+	Ascomycota_mtHsp70_Naumovozyma_castellii_2-627[&!color=#6699ff]
+	Ascomycota_mtHsp70_Naumovozyma_dairenensis_2-627[&!color=#6699ff]
+	Ascomycota_mtHsp70_Neofusicoccum_parvum_2-625
+	Ascomycota_mtHsp70_Neurospora_crassa_2-622
+	Ascomycota_mtHsp70_Paracoccidioides_brasiliensis_2-625
+	Ascomycota_mtHsp70_Paracoccidioides_lutzii_2-625
+	Ascomycota_mtHsp70_Penicillium_rubens_2-625
+	Ascomycota_mtHsp70_Podospora_anserina_2-622
+	Ascomycota_mtHsp70_Scheffersomyces_stipitis_2-627[&!color=#6699ff]
+	Ascomycota_mtHsp70_Schizosaccharomyces_pombe_2-625
+	Ascomycota_mtHsp70_Sclerotinia_sclerotiorum_2-619
+	Ascomycota_mtHsp70_Sordaria_macrospora_2-622
+	Ascomycota_mtHsp70_Spathaspora_passalidarum_2-625[&!color=#6699ff]
+	Ascomycota_mtHsp70_Thermothelomyces_thermophila_2-622
+	Ascomycota_mtHsp70_Trichoderma_reesei_2-623
+	Ascomycota_mtHsp70_Trichophyton_verrucosum_2-625
+	Ascomycota_mtHsp70_Uncinocarpus_reesii_2-624
+	Ascomycota_mtHsp70_Vanderwaltozyma_polyspora_2-626[&!color=#6699ff]
+	Ascomycota_mtHsp70_Yarrowia_lipolytica_2-625
+	Basidio_mtHsp70_Agaricus_bisporus_2-628
+	Basidio_mtHsp70_Anthracocystis_flocculosa_1-625
+	Basidio_mtHsp70_Coprinopsis_cinerea_2-628
+	Basidio_mtHsp70_Cryptococcus_gattii_2-628
+	Basidio_mtHsp70_Cryptococcus_neoformans_2-628
+	Basidio_mtHsp70_Dichomitus_squalens_2-628
+	Basidio_mtHsp70_Fomitiporia_mediterranea_2-628
+	Basidio_mtHsp70_Heterobasidion_irregulare_2-628
+	Basidio_mtHsp70_Malassezia_globosa_19-645
+	Basidio_mtHsp70_Moniliophthora_roreri_2-628
+	Basidio_mtHsp70_Phanerochaete_carnosa_2-627
+	Basidio_mtHsp70_Puccinia_graminis_2-628
+	Basidio_mtHsp70_Punctularia_strigosozonata_2-628
+	Basidio_mtHsp70_Schizophyllum_commune_1-616
+	Basidio_mtHsp70_Serpula_lacrymans_1-616
+	Basidio_mtHsp70_Stereum_hirsutum_2-628
+	Basidio_mtHsp70_Trametes_versicolor_2-627
+	Basidio_mtHsp70_Tremella_mesenterica_2-628
+	Basidio_mtHsp70_Ustilago_maydis_1-626
+	Basidio_mtHsp70_Wallemia_mellicola_1-625
+	SSQ_Ashbya_gossypii_4-617[&!color=#009900]
+	SSQ_Candida_albicans_4-617[&!color=#009900]
+	SSQ_Candida_dubliniensis_4-617[&!color=#009900]
+	SSQ_Candida_glabrata_2-613[&!color=#009900]
+	SSQ_Candida_orthopsilosis_1-612[&!color=#009900]
+	SSQ_Clavispora_lusitaniae_2-616[&!color=#009900]
+	SSQ_Kluyveromyces_lactis_10-625[&!color=#009900]
+	SSQ_Meyerozyma_guilliermondii_2-620[&!color=#009900]
+	SSQ_Naumovozyma_dairenensis_2-620[&!color=#009900]
+	SSQ_Vanderwaltozyma_polyspora_2-620[&!color=#009900]
+	animal_Ailuropoda_melanoleuca_2-627
+	animal_Branchiostoma_floridae_2-626
+	animal_Chelonia_mydas_1-592
+	animal_Ciona_intestinalis_2-624
+	animal_Corvus_cornix_31-651
+	animal_Crassostrea_gigas_2-627
+	animal_Danio_rerio_2-627
+	animal_Daphnia_pulex_2-627
+	animal_Drosophila_melanogaster_2-628
+	animal_Exaiptasia_pallida_2-627
+	animal_Falco_cherrug_1-592
+	animal_Felis_catus_2-627
+	animal_Gallus_gallus_2-627
+	animal_Helobdella_robusta_2-627
+	animal_Homo_sapiens_2-627
+	animal_Hydra_vulgaris_2-622
+	animal_Lottia_gigantea_2-627
+	animal_Maylandia_zebra_2-627
+	animal_Musca_domestica_2-628
+	animal_Nematostella_vectensis_1-620
+	animal_Oryzias_latipes_2-627
+	animal_Salmo_salar_2-627
+	animal_Sarcophilus_harrisii_37-662
+	animal_Solenopsis_invicta_2-628
+	bacteria_DnaK_Acholeplasma_laidlawii_1-583
+	bacteria_DnaK_Bacillus_subtilis_1-579
+	bacteria_DnaK_Bifidobacterium_longum_1-582
+	bacteria_DnaK_Campylobacter_concisus_1-603
+	bacteria_DnaK_Citrobacter_rodentium_1-606
+	bacteria_DnaK_Ehrlichia_chaffeensis_1-605
+	bacteria_DnaK_Enterobacter_sp_1-606
+	bacteria_DnaK_Escherichia_coli_1-606
+	bacteria_DnaK_Helicobacter_pylori_1-600
+	bacteria_DnaK_Magnetococcus_marinus_1-608
+	bacteria_DnaK_Rhizobium_gallicum_1-610
+	bacteria_DnaK_Rhodovulum_sp_1-607
+	bacteria_DnaK_Rickettsia_prowazekii_1-607
+	bacteria_DnaK_Salmonella_enterica_1-606
+	bacteria_DnaK_Shigella_flexneri_1-608
+	bacteria_DnaK_Yersinia_pestis_1-603
+	bacteria_HscA_Buchnera_aphidicola_1-593
+	bacteria_HscA_Burkholderia_mallei_1-598
+	bacteria_HscA_Citrobacter_amalonaticus_1-593
+	bacteria_HscA_Citrobacter_rodentium_1-593
+	bacteria_HscA_Ehrlichia_chaffeensis_1-593
+	bacteria_HscA_Enterobacter_sp_1-593
+	bacteria_HscA_Escherichia_coli_1-593
+	bacteria_HscA_Klebsiella_oxytoca_1-593
+	bacteria_HscA_Magnetococcus_marinus_2-599
+	bacteria_HscA_Ralstonia_solanacearum_1-597
+	bacteria_HscA_Salmonella_enterica_1-593
+	bacteria_HscA_Serratia_marcescens_1-593
+	bacteria_HscA_Yersinia_pestis_1-594
+	bacteria_HscA__Cronobacter_sakazakii_1-593
+	plants_Arachis_duranensis_1-606
+	plants_Asparagus_officinalis_1-621
+	plants_Juglans_regia_2-622
+	plants_Populus_trichocarpa_1-623
+	plants_Prunus_persica_1-622
+	plants_Selaginella_moellendorffii_1-615
+	plants_Sesamum_indicum_1-619
+	plants_Solanum_lycopersicum_1-621
+	plants_Tarenaya_hassleriana_1-623
+	plants_Zea_mays_1-622
+	plants_Ziziphus_jujuba_2-622
+	plants_hsp70_Theobroma_cacao_1-622
+	plants_mtHsp70_Arabidopsis_thaliana_1-622
+	plants_mtHsp70_Cucumis_melo_1-620
+	plants_mtHsp70_Cucumis_sativus_1-620
+	plants_mtHsp70_Daucus_carota_1-621
+	plants_mtHsp70_Dendrobium_officinale_1-619
+	plants_mtHsp70_Elaeis_guineensis_2-624
+	plants_mtHsp70_Fragaria_vesca_1-623
+	plants_mtHsp70_Glycine_max_2-619
+	plants_mtHsp70_Malus_domestica_1-622
+	plants_mtHsp70_Musa_acuminata_2-624
+	plants_mtHsp70_Nelumbo_nucifera_1-617
+	plants_mtHsp70_Oryza_sativa_1-622
+	plants_mtHsp70_Physcomitrella_patens_1-621
+	plants_mtHsp70_Prunus_avium_1-622
+	plants_mtHsp70_Pyrus_x_1-622
+	plants_mtHsp70_Solanum_pennellii_1-621
+	plants_mtHsp70_Sorghum_bicolor_2-622
+	plants_mtHsp70_Spinacia_oleracea_1-617
+	plants_mtHsp70_Vitis_vinifera_1-621
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (bacteria_DnaK_Enterobacter_sp_1-606:0.034956,(((((((((((((((Ascomycota_DnaK_mtHsp70_Coccidioides_immitis_2-624:0.015206,Ascomycota_mtHsp70_Uncinocarpus_reesii_2-624:0.019415)[&label=100]:0.026824,((Ascomycota_DnaK_mtHsp70_Trichophyton_benhamiae_2-625:3.0E-6,Ascomycota_mtHsp70_Trichophyton_verrucosum_2-625:3.0E-6)[&label=100]:0.072427,((Ascomycota_mtHsp70_Paracoccidioides_brasiliensis_2-625:0.006143,Ascomycota_mtHsp70_Paracoccidioides_lutzii_2-625:3.0E-6)[&label=100]:0.026133,Ascomycota_mtHsp70_Histoplasma_capsulatum_2-625:0.042707)[&label=100]:0.01856)[&label=100]:0.020386)[&label=100]:0.034126,(((((((Ascomycota_DnaK_mtHsp70_Neurospora_tetrasperma_2-622:0.002125,Ascomycota_mtHsp70_Neurospora_crassa_2-622:0.004091)[&label=100]:0.039157,Ascomycota_mtHsp70_Sordaria_macrospora_2-622:0.016488)[&label=100]:0.053484,(Ascomycota_DnaK_mtHsp70_Thielavia_terrestris_2-622:0.011368,(Ascomycota_mtHsp70_Chaetomium_thermophilum_2-622:0.065825,Ascomycota_mtHsp70_Thermothelomyces_thermophila_2-622:0.038835)[&label=51]:0.014226)[&label=100]:0.024291)[&label=90]:0.015283,Ascomycota_mtHsp70_Podospora_anserina_2-622:0.043152)[&label=33]:0.006751,((((Ascomycota_DnaK_mtHsp70_Fusarium_graminearum_2-620:3.0E-6,Ascomycota_mtHsp70_Fusarium_pseudograminearum_2-620:3.0E-6)[&label=100]:0.043448,Ascomycota_mtHsp70_Cordyceps_militaris_2-624:0.058001)[&label=100]:0.034582,Ascomycota_mtHsp70_Trichoderma_reesei_2-623:0.070533)[&label=99]:0.027509,Ascomycota_mtHsp70_Magnaporthe_oryzae_2-621:0.089022)[&label=53]:0.020027)[&label=98]:0.026742,((Ascomycota_mtHsp70_Botrytis_cinerea_2-624:0.006077,Ascomycota_mtHsp70_Sclerotinia_sclerotiorum_2-619:0.002126)[&label=100]:0.033292,Ascomycota_mtHsp70_Marssonina_brunnea_2-624:0.043269)[&label=100]:0.079416)[&label=100]:0.039781,(Ascomycota_mtHsp70_Penicillium_rubens_2-625:0.087018,((Ascomycota_mtHsp70_Aspergillus_nidulans_2-619:0.02943,Ascomycota_mtHsp70_Aspergillus_oryzae_1-522:0.058774)[&label=84]:0.002894,(Ascomycota_mtHsp70_Aspergillus_niger_2-621:0.033708,(Ascomycota_mtHsp70_Aspergillus_fischeri_5-620:0.004347,Ascomycota_mtHsp70_Aspergillus_fumigatus_26-643:0.01394)[&label=100]:0.019643)[&label=93]:0.006588)[&label=92]:0.021483)[&label=100]:0.028751)[&label=77]:0.017436)[&label=98]:0.018389,(((((Ascomycota_hsp70_Bipolaris_oryzae_2-625:3.0E-6,Ascomycota_mtHsp70_Bipolaris_zeicola_2-625:3.0E-6)[&label=100]:0.00402,Ascomycota_mtHsp70_Bipolaris_sorokiniana_2-625:3.0E-6)[&label=100]:0.004428,Ascomycota_DnaK_mtHsp70_Pyrenophora_teres_2-625:0.015829)[&label=100]:0.086475,(Ascomycota_DnaK_mtHsp70_Pseudocercospora_fijiensis_2-626:0.091835,Ascomycota_mtHsp70_Baudoinia_panamericana_2-628:0.082079)[&label=100]:0.0404)[&label=70]:0.009068,Ascomycota_mtHsp70_Neofusicoccum_parvum_2-625:0.055841)[&label=99]:0.031529)[&label=100]:0.167126,(((((((((((((Ascomycota_DnaK_mtHsp70_Candida_albicans_2-626:0.008183,Ascomycota_mtHsp70_Candida_dubliniensis_2-626:3.0E-6)[&label=100]:0.018311,Ascomycota_mtHsp70_Candida_tropicalis_2-626:0.046614)[&label=100]:0.030598,(Ascomycota_mtHsp70_Lodderomyces_elongisporus_2-626:0.04706,Ascomycota_mtHsp70_Candida_orthopsilosis_2-626:0.056976)[&label=100]:0.012779)[&label=100]:0.04693,Ascomycota_mtHsp70_Spathaspora_passalidarum_2-625[&!color=#000000]:0.056225)[&label=100]:0.102371,Ascomycota_mtHsp70_Scheffersomyces_stipitis_2-627:0.016183)[&label=95]:0.024751,Ascomycota_mtHsp70_Meyerozyma_guilliermondii_54-679:0.059263)[&label=76]:0.017478,Ascomycota_mtHsp70_Debaryomyces_hansenii_2-625:0.053911)[&label=87]:0.020837,Ascomycota_mtHsp70_Candida_tenuis_2-626:0.090201)[&label=88]:0.026296,(Ascomycota_mtHsp70_Candida_auris_2-627:0.061018,Ascomycota_mtHsp70_Clavispora_lusitaniae_2-627:0.048642)[&label=100]:0.013207)[&label=100]:0.163061,(((((Ascomycota_hsp70_Tetrapisispora_blattae_2-627:0.069777,(((((Ascomycota_DnaK_mtHsp70_Tetrapisispora_phaffii_2-627:0.097685,Ascomycota_mtHsp70_Kazachstania_africana_2-626:0.045089)[&label=83]:0.025498,Ascomycota_mtHsp70_Candida_glabrata_2-625:0.063957)[&label=80]:0.014068,Ascomycota_mtHsp70_Naumovozyma_dairenensis_2-627:0.031229)[&label=41]:0.011418,Ascomycota_mtHsp70_Naumovozyma_castellii_2-627:0.028613)[&label=79]:0.017702,Ascomycota_SSC__Saccharomyces_cerevisiae_2-626:0.031846)[&label=84]:0.014222)[&label=48]:0.01097,Ascomycota_mtHsp70_Vanderwaltozyma_polyspora_2-626:0.038819)[&label=100]:0.028573,(Ascomycota_DnaK_mtHsp70_Kluyveromyces_lactis_2-623:3.0E-6,Ascomycota_SSC_Kluyveromyces_lactis_2-623:3.0E-6)[&label=100]:0.050776)[&label=95]:0.02549,Ascomycota_mtHsp70_Lachancea_thermotolerans_2-626:0.056659)[&label=100]:0.037258,Ascomycota_mtHsp70_Eremothecium_gossypii_1-621:0.109825)[&label=100]:0.064289)[&label=99]:0.063775,(((((Ascomycota_SSC_Ylip_2-625:3.0E-6,Ascomycota_mtHsp70_Yarrowia_lipolytica_2-625:3.0E-6)[&label=66]:3.0E-6,Ascomycota_SSC_Ygal_2-625:0.012374)[&label=96]:0.001237,Ascomycota_SSC_Yyak_2-625:0.011184)[&label=99]:0.017621,(Ascomycota_SSC_Ypha_2-625:0.025605,Ascomycota_SSC_Yali_2-625:0.025292)[&label=100]:0.007196)[&label=100]:0.081087,Ascomycota_SSC_Yhis_2-626:0.072363)[&label=100]:0.076971)[&label=98]:0.074126,(((Ascomycota_SSC_Schizosaccharomyces_cryophilus_2-624:0.03618,Ascomycota_SSC_Schizosaccharomyces_octosporus_2-625:0.038281)[&label=100]:0.104166,Ascomycota_mtHsp70_Schizosaccharomyces_pombe_2-625:0.044925)[&label=100]:0.145806,Ascomycota_SSC__Schizosaccharomyces_japonicus_2-626:0.087006)[&label=100]:0.17394)[&label=75]:0.022052,((((((Ascomycota_SSQ_Spathaspora_passalidarum_9-614:0.269432,((Ascomycota_SSQ_Lodderomyces_elongisporus_8-620:0.368241,SSQ_Candida_orthopsilosis_1-612:0.143571)[&label=100]:0.081638,((SSQ_Candida_albicans_4-617:0.041327,SSQ_Candida_dubliniensis_4-617:0.040535)[&label=100]:0.091472,Ascomycota_SSQ_Candida_tropicalis_4-615:0.202668)[&label=100]:0.113354)[&label=100]:0.097757)[&label=100]:0.124356,Ascomycota_SSQ_Scheffersomyces_stipitis_10-625:0.212147)[&label=100]:0.091462,(Ascomycota_SSQ_Debaryomyces_hansenii_15-629:0.172232,Ascomycota_SSQ__Cten_1-614:0.27462)[&label=99]:0.035907)[&label=97]:0.043754,SSQ_Meyerozyma_guilliermondii_2-620:0.293918)[&label=98]:0.04272,(SSQ_Clavispora_lusitaniae_2-616:0.210971,Ascomycota_SSQ_Candida_auris_2-621:0.22463)[&label=100]:0.096261)[&label=100]:0.305303,((((Ascomycota_SSQ_Tetrapisispora_blattae_2-620:0.507015,SSQ_Kluyveromyces_lactis_10-625:0.272354)[&label=67]:0.047599,SSQ_Candida_glabrata_2-613:0.443234)[&label=69]:0.0442,((Ascomycota_SSQ_Tetrapisispora_phaffii_1-621:0.326168,SSQ_Vanderwaltozyma_polyspora_2-620:0.257802)[&label=99]:0.112941,(((SSQ_Naumovozyma_dairenensis_2-620:0.230311,Ascomycota_SSQ_Naumovozyma_castellii_4-620:0.226544)[&label=96]:0.036294,Ascomycota_SSQ_Kazachstania_africana_1-616:0.440423)[&label=99]:0.040376,Ascomycota_SSQ_Saccharomyces_cerevisiae_2-618:0.302025)[&label=98]:0.05438)[&label=68]:0.028353)[&label=96]:0.080676,SSQ_Ashbya_gossypii_4-617:0.53923)[&label=100]:0.396763)[&label=100]:0.58944)[&label=97]:0.046889)[&label=96]:0.049048,((((((((Basidio_mtHsp70_Serpula_lacrymans_1-616:0.062279,Basidio_mtHsp70_Moniliophthora_roreri_2-628:0.070552)[&label=99]:0.011172,((Basidio_mtHsp70_Stereum_hirsutum_2-628:0.048874,Basidio_mtHsp70_Heterobasidion_irregulare_2-628:0.054209)[&label=100]:0.029524,Basidio_mtHsp70_Punctularia_strigosozonata_2-628:0.113713)[&label=88]:0.015594)[&label=87]:0.014761,(Basidio_mtHsp70_Phanerochaete_carnosa_2-627:0.093626,(Basidio_mtHsp70_Trametes_versicolor_2-627:0.054382,Basidio_mtHsp70_Dichomitus_squalens_2-628:0.050481)[&label=100]:0.047619)[&label=93]:0.032448)[&label=79]:0.016767,(Basidio_mtHsp70_Coprinopsis_cinerea_2-628:0.091305,Basidio_mtHsp70_Agaricus_bisporus_2-628:0.133006)[&label=75]:0.026457)[&label=92]:0.021309,Basidio_mtHsp70_Fomitiporia_mediterranea_2-628:0.153526)[&label=96]:0.02301,Basidio_mtHsp70_Schizophyllum_commune_1-616:0.10555)[&label=100]:0.161907,(((Basidio_mtHsp70_Tremella_mesenterica_2-628:0.120032,(Basidio_mtHsp70_Cryptococcus_gattii_2-628:0.015313,Basidio_mtHsp70_Cryptococcus_neoformans_2-628:0.014089)[&label=100]:0.065505)[&label=100]:0.135144,Basidio_mtHsp70_Wallemia_mellicola_1-625:0.272283)[&label=99]:0.034295,(Basidio_mtHsp70_Malassezia_globosa_19-645:0.130614,(Basidio_mtHsp70_Anthracocystis_flocculosa_1-625:0.030635,Basidio_mtHsp70_Ustilago_maydis_1-626:0.057901)[&label=100]:0.093594)[&label=100]:0.127214)[&label=76]:0.027583)[&label=96]:0.042342,Basidio_mtHsp70_Puccinia_graminis_2-628:0.238929)[&label=100]:0.111716)[&label=100]:0.191364,((((((animal_Drosophila_melanogaster_2-628:0.066113,animal_Musca_domestica_2-628:0.025809)[&label=100]:0.123813,animal_Solenopsis_invicta_2-628:0.10189)[&label=100]:0.047544,animal_Daphnia_pulex_2-627:0.153294)[&label=99]:0.043554,(animal_Helobdella_robusta_2-627:0.13915,(animal_Crassostrea_gigas_2-627:0.176371,animal_Lottia_gigantea_2-627:0.155877)[&label=95]:0.027794)[&label=95]:0.03179)[&label=98]:0.023657,(((((animal_Oryzias_latipes_2-627:0.066404,animal_Maylandia_zebra_2-627:0.031152)[&label=99]:0.019018,(animal_Danio_rerio_2-627:0.037569,animal_Salmo_salar_2-627:0.047172)[&label=98]:0.011883)[&label=99]:0.031951,((((animal_Homo_sapiens_2-627:0.004049,animal_Ailuropoda_melanoleuca_2-627:0.002022)[&label=86]:3.0E-6,animal_Felis_catus_2-627:0.004051)[&label=100]:0.01128,animal_Sarcophilus_harrisii_37-662:0.028219)[&label=99]:0.016995,(animal_Chelonia_mydas_1-592:0.013556,(animal_Gallus_gallus_2-627:0.010372,(animal_Corvus_cornix_31-651:0.013666,animal_Falco_cherrug_1-592:0.002301)[&label=99]:0.002738)[&label=100]:0.019274)[&label=100]:0.01559)[&label=99]:0.02681)[&label=100]:0.090051,animal_Ciona_intestinalis_2-624:0.229379)[&label=95]:0.027954,animal_Branchiostoma_floridae_2-626:0.118738)[&label=97]:0.03605)[&label=52]:0.020029,(animal_Hydra_vulgaris_2-622:0.282227,(animal_Nematostella_vectensis_1-620:0.075729,animal_Exaiptasia_pallida_2-627:0.063265)[&label=100]:0.092849)[&label=95]:0.029306)[&label=100]:0.166402)[&label=100]:0.134983,(((((plants_hsp70_Theobroma_cacao_1-622:0.050852,((((plants_Prunus_persica_1-622:0.005161,plants_mtHsp70_Prunus_avium_1-622:0.003063)[&label=100]:0.018304,(plants_mtHsp70_Malus_domestica_1-622:0.001121,plants_mtHsp70_Pyrus_x_1-622:0.00334)[&label=100]:0.02073)[&label=100]:0.014813,plants_mtHsp70_Fragaria_vesca_1-623:0.061498)[&label=99]:0.012608,(((plants_mtHsp70_Cucumis_melo_1-620:0.012096,plants_mtHsp70_Cucumis_sativus_1-620:0.026194)[&label=100]:0.022068,plants_Ziziphus_jujuba_2-622:0.045649)[&label=99]:0.007224,(plants_mtHsp70_Glycine_max_2-619:0.028906,plants_Arachis_duranensis_1-606:0.022122)[&label=99]:0.017531)[&label=98]:0.007343)[&label=100]:0.00548)[&label=76]:0.008322,(((((((plants_mtHsp70_Musa_acuminata_2-624:0.045212,plants_mtHsp70_Sorghum_bicolor_2-622:0.16233)[&label=100]:0.01598,plants_mtHsp70_Elaeis_guineensis_2-624:0.041685)[&label=100]:0.078422,plants_Asparagus_officinalis_1-621:0.034882)[&label=99]:0.012991,(plants_mtHsp70_Oryza_sativa_1-622:0.050435,plants_Zea_mays_1-622:0.043958)[&label=100]:0.062053)[&label=93]:0.020286,((plants_mtHsp70_Dendrobium_officinale_1-619:0.053753,plants_mtHsp70_Nelumbo_nucifera_1-617:0.056401)[&label=89]:0.013177,plants_mtHsp70_Vitis_vinifera_1-621:0.032976)[&label=68]:0.004905)[&label=75]:0.002292,((plants_mtHsp70_Solanum_pennellii_1-621:0.004087,plants_Solanum_lycopersicum_1-621:0.002129)[&label=100]:0.084055,plants_Sesamum_indicum_1-619:0.036843)[&label=82]:0.020883)[&label=82]:0.007872,(plants_mtHsp70_Daucus_carota_1-621:0.085333,plants_Tarenaya_hassleriana_1-623:0.096796)[&label=83]:0.027182)[&label=80]:0.005747)[&label=70]:0.006649,((plants_mtHsp70_Arabidopsis_thaliana_1-622:0.100356,plants_Populus_trichocarpa_1-623:0.070112)[&label=64]:0.017177,plants_Juglans_regia_2-622:0.078113)[&label=82]:0.020236)[&label=82]:0.032562,plants_mtHsp70_Spinacia_oleracea_1-617:0.10406)[&label=100]:0.143378,(plants_mtHsp70_Physcomitrella_patens_1-621:0.12371,plants_Selaginella_moellendorffii_1-615:0.138451)[&label=100]:0.08183)[&label=100]:0.209578)[&label=100]:0.113818,bacteria_DnaK_Ehrlichia_chaffeensis_1-605:0.465891)[&label=99]:0.070824,bacteria_DnaK_Rickettsia_prowazekii_1-607:0.30727)[&label=98]:0.038518,(((bacteria_DnaK_Rhizobium_gallicum_1-610:0.160986,bacteria_DnaK_Shigella_flexneri_1-608:0.313823)[&label=92]:0.056603,bacteria_DnaK_Rhodovulum_sp_1-607:0.256788)[&label=91]:0.052318,bacteria_DnaK_Magnetococcus_marinus_1-608:0.326127)[&label=96]:0.034631)[&label=99]:0.079714,(((((bacteria_HscA_Buchnera_aphidicola_1-593:1.734217,bacteria_HscA_Ehrlichia_chaffeensis_1-593:1.842418)[&label=85]:0.522378,(((((bacteria_HscA_Escherichia_coli_1-593:0.035424,bacteria_HscA_Enterobacter_sp_1-593:0.051753)[&label=100]:0.053663,(bacteria_HscA_Citrobacter_rodentium_1-593:0.042172,(bacteria_HscA_Citrobacter_amalonaticus_1-593:0.028346,bacteria_HscA_Salmonella_enterica_1-593:0.044791)[&label=98]:0.008455)[&label=99]:0.034798)[&label=99]:0.030245,bacteria_HscA_Klebsiella_oxytoca_1-593:0.074701)[&label=99]:0.022336,bacteria_HscA__Cronobacter_sakazakii_1-593:0.084172)[&label=100]:0.098144,(bacteria_HscA_Yersinia_pestis_1-594:0.138974,bacteria_HscA_Serratia_marcescens_1-593:0.083949)[&label=99]:0.052275)[&label=100]:0.220432)[&label=83]:0.184387,(bacteria_HscA_Burkholderia_mallei_1-598:0.295494,bacteria_HscA_Ralstonia_solanacearum_1-597:0.23105)[&label=100]:0.298158)[&label=95]:0.270047,bacteria_HscA_Magnetococcus_marinus_2-599:0.59062)[&label=100]:1.636533,((bacteria_DnaK_Campylobacter_concisus_1-603:0.196501,bacteria_DnaK_Helicobacter_pylori_1-600:0.241012)[&label=100]:0.305137,((bacteria_DnaK_Acholeplasma_laidlawii_1-583:0.391887,bacteria_DnaK_Bacillus_subtilis_1-579:0.314529)[&label=100]:0.209283,bacteria_DnaK_Bifidobacterium_longum_1-582:0.60249)[&label=96]:0.131263)[&label=99]:0.077144)[&label=100]:0.112493)[&label=100]:0.457725,bacteria_DnaK_Yersinia_pestis_1-603:0.059366)[&label=94]:0.035755,bacteria_DnaK_Escherichia_coli_1-606:0.027801)[&label=99]:0.009791,bacteria_DnaK_Salmonella_enterica_1-606:0.004636)[&label=99]:0.011265,bacteria_DnaK_Citrobacter_rodentium_1-606:3.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=217;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
